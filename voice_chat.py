@@ -12,7 +12,7 @@ from audiorecorder import audiorecorder
 
 
 # Open AI API 키 설정하기
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 ##### 기능 구현 함수 #####
 def STT(speech):
@@ -33,7 +33,7 @@ def STT(speech):
     
     return transcription.text
 
-load_dotenv()
+# load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
